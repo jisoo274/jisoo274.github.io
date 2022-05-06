@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;} */
+
+#wrap {background-color:#F0F0F0; width:960px; margin:0 auto;}
+
+div,section,header,aside,footer {padding:10px;}
+
+div#container{
+    background-color:white; width:960px; margin:0 auto;
+}
+div#wrap{
+    padding: 5px;
+}
+
+header {
+    background-color: rgb(194, 193, 193); 
+    border-top: black solid;
+    border-left: black solid;
+    border-right: black solid;
+
+}
+nav	{
+    float:right; 
+    margin-top: -30px;
+}
+nav ul {
+    display:flex; 
+    font-size:x-large;
+}
+nav ul li{
+    list-style:none;
+}
+nav ul li a {
+    text-decoration:none; 
+    color:darkolivegreen; 
+    padding: 5px; 
+    font-weight: bold;
+}
+nav ul li:not(:last-of-type)::after {
+    content: "|"; 
+    color: darkolivegreen; 
+    padding: 5px;
+}	
+nav ul li a:hover{
+    background-color: grey;
+}
+
+section#content	{
+    border-left: black solid;
+    border-right: black solid;
+    border-top: black solid;
+    background-color:whitesmoke; 
+    width: 640px;
+    min-height:500px;
+    float:left;
+    font-family: 'Times New Roman';
+}
+section#content h3	{
+    margin-top: 10px; margin-left: 20px; 
+    font-family: 'Caveat', cursive; 
+    font-size: 30px;}
+    
+section#content3	{
+    border-left: black solid;
+    border-right: black solid;
+    border-top: black solid;
+    background-color:whitesmoke; 
+    width: 925px;
+    }
+
+section#content div#parent div#Hobby img{
+float: right;
+}
+
+aside	{
+    border-right: black solid;
+    border-top: black solid;
+    border-bottom: black solid;
+    background-color:#DCDAD9; 
+    width: 262px;
+    min-height:500px;
+    float:right;
+}
+
+ aside	h3{
+ font-size:xx-large; font-family:'Gamja Flower';
+}
+aside form{
+margin-left: 10px; font-family:'Gamja Flower'; font-size: larger;}
+
+footer{
+    border: solid black;
+    background-color:rgb(221, 228, 234); 
+    clear: both;
+}
+
+footer small{
+    text-align:left; 
+    font-family: 'Caveat', cursive;
+	font-size: 23px;
+    color: gray;
+}
+
+footer img{
+    width: 130px;
+    height: 50px;
+    margin-top: 10px; 
+    background-color: rgb(221, 228, 234);
+}
+
